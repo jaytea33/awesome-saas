@@ -1,25 +1,8 @@
-### Notice:
-
-**You can use this visual builder to create templates and submit PRs to this repo if they work: [Shipwright](https://shipwright.yacht.sh) it's currently pretty early in development but should be able to take portainer templates (that don't have type 2 or 3 templates) and import them for editing.**
-
-Currently most of my dev time is being spent on [Yacht](https://github.com/SelfhostedPro/Yacht/tree/vue) if you would like something added please consider making a pull request with your addition and I'll work on getting it added when I'm able to. Information about how to structure a block (for an app) is available [here](https://portainer.readthedocs.io/en/stable/templates.html) and there is a gui builder [here](https://shipwright.yacht.sh)
-
 # Portainer Templates for Selfhosted Projects/Homelabs
 
-This is a template focused on helping people spin up selfhosted services using Portainer and Yacht.
-## Versions
+This is a template focused on helping people spin up selfhosted services using Portainer.
 
-The following table shows the corresponding url to use for the application you're using.
-
-| Application  | URL |
-| ------------- | ------------- |
-| Yacht | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/yacht.json |
-| Yacht (arm) | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/yacht-arm.yml |
-| Portainer v1 (no OMV)  | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v1.json  |
-| Portainer v2 (no OMV)  | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json  |
-| Portainer v1 OMV | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v1.json |
-| Portainer v2 OMV | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/omv-v2.json|
-
+| Portainer v2 | https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json  |
 
 ### Prerequisites
 
@@ -144,11 +127,12 @@ All templates are already configured to bind mount to various places on your dri
 If you wish to contribute make a pull request, create an issue, or email me.
 
 ## Authors
-* **NASHosted** - *Current Work*
-* **SelfhostedPro** - *Current Work*
+* **donPabloNow** - *Current Work*
+* **NASHosted** - *Initial work* - [Qballjos](https://github.com/SelfhostedPr)
+* **SelfhostedPro** - *Initial work* - [Qballjos](https://github.com/SelfhostedPr)
 * **Jos Visser** - *Initial work* - [Qballjos](https://github.com/Qballjos)
 
-See also the list of [contributors](https://github.com/SelfhostedPro/selfhosted_templates/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/donPablonow/selfhosted_templates/contributors) who participated in this project.
 
 ## Acknowledgments
 
