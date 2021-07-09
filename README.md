@@ -2,7 +2,7 @@
 
 This is a template focused on helping people spin up selfhosted services using Portainer
 
-`https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json`
+[Latest Version](`https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json`)
 
 <hr />
 
