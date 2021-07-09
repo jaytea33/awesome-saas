@@ -1,8 +1,6 @@
 # Portainer Templates for Selfhosted Projects/Homelabs
 
-This is a template focused on helping people spin up selfhosted services using Portainer
-
-[Latest Version](https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json)
+This is a template focused on helping people spin up selfhosted services using Portainer: [Latest Version](https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json)
 
 `https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json`
 
