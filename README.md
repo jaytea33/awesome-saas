@@ -1,5 +1,5 @@
 # Awesome Self-hosted SaaS Applications
-## Over 100 instant 'One-Click-Deploy' SaaS Application templates, when you need to get up and running fast!
+### Over 100 instant 'One-Click-Deploy' SaaS Application templates, when you need to get up and running fast!
 
 <img src="https://camunda-community-hub.github.io/zeebe-portainer-templates/assets/demo.gif" />
 
