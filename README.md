@@ -1,4 +1,4 @@
-# Awesome Self-hosted SaaS Applications (One-Click-Deploy)
+# Awesome Self-hosted SaaS Applications (100+ Instant One-Click-Deploy Apps)
 
 Over 100 instant 'One-Click-Deploy' SaaS Application templates, when you need to get up and running fast!
 
