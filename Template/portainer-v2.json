@@ -21,6 +21,1434 @@
     {
       "categories": [
         "Other",
+        "Tools",
+        "Photo"
+      ],
+      "description": "Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version..",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "CHEVERETO_DB_HOST",
+          "name": "CHEVERETO_DB_HOST",
+          "set": ""
+        },
+        {
+          "label": "CHEVERETO_DB_USERNAME",
+          "name": "CHEVERETO_DB_USERNAME",
+          "set": ""
+        },
+        {
+          "label": "CHEVERETO_DB_PASSWORD",
+          "name": "CHEVERETO_DB_PASSWORD",
+          "set": ""
+        },
+        {
+          "label": "CHEVERETO_DB_NAME",
+          "name": "CHEVERETO_DB_NAME",
+          "set": ""
+        },
+        {
+          "label": "CHEVERETO_DB_PREFIX",
+          "name": "CHEVERETO_DB_PREFIX",
+          "set": ""
+        }
+      ],
+      "image": "nmtan/chevereto:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/Chevereto.png",
+      "name": "Chevereto",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Chevereto",
+      "type": 1,
+      "volumes": [
+        {
+          "container": "/var/www/html/images"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "Save recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease.",
+      "image": "gregyankovoy/chowdown:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/chowdown.png",
+      "name": "Chowdown",
+      "platform": "linux",
+      "ports": [
+        "4000:4000/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Chowdown",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Chowdown",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Cloud",
+        "Books"
+      ],
+      "description": "Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.\n\n  [br][br]\n  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]\n  [b]/config[/b] Where Calibre-web should store it's database[br]\n  [b]/books[/b] Path to your calibre library metadata.db file[br]",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/calibre-web:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/calibre-web-icon.png",
+      "name": "calibre-web",
+      "platform": "linux",
+      "ports": [
+        "8083:8083/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Calibre Web",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Books",
+          "container": "/books"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config/Calibre-web",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders"
+      ],
+      "description": "Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/cardigann:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/cardigann.png",
+      "name": "cardigann",
+      "platform": "linux",
+      "ports": [
+        "5060:5060/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Cardigann",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Cardigann",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "Code-server is VS Code running on a remote server, accessible through the browser.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "GUID"
+        },
+        {
+          "label": "TZ",
+          "name": "TZ"
+        },
+        {
+          "label": "PASSWORD",
+          "name": "PASSWORD"
+        },
+        {
+          "label": "SUDO_PASSWORD",
+          "name": "SUDO_PASSWORD"
+        },
+        {
+          "default": "example.my.domain",
+          "label": "PROXY_DOMAIN",
+          "name": "PROXY_DOMAIN"
+        }
+      ],
+      "image": "linuxserver/code-server:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/code-server.png",
+      "name": "code-server",
+      "platform": "linux",
+      "ports": [
+        "8443:8443/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Code Server",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Code-Server",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Productivity"
+      ],
+      "description": "Codiad is a web-based IDE framework with a small footprint and minimal requirements.\n  ",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/codiad:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/codiad-icon.png",
+      "name": "codiad",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Codiad",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Codiad",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Cloud",
+        "Books"
+      ],
+      "description": "COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/cops:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/cops-icon.png",
+      "name": "cops",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "COPS",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Books",
+          "container": "/books"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config/Cops",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders",
+        "Video"
+      ],
+      "description": "CouchPotato (CP) is an automatic NZB and torrent downloader. You can keep a \"movies I want\"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the torrent to a specified directory.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/couchpotato:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/couchpotato-icon.png",
+      "name": "couchpotato",
+      "platform": "linux",
+      "ports": [
+        "5050:5050/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "CouchPotato",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Couchpotato",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        },
+        {
+          "bind": "/portainer/Movies",
+          "container": "/movies"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Music"
+      ],
+      "description": "DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/daapd:latest",
+      "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-icon.png",
+      "name": "daapd",
+      "platform": "linux",
+      "restart_policy": "unless-stopped",
+      "title": "Daapd",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Daapd",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Music",
+          "container": "/music"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "Another application bookmark dashboard, with fun features.",
+      "image": "rmountjoy/dashmachine:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/dashmachine_logo.png",
+      "name": "dashmachine",
+      "platform": "linux",
+      "ports": [
+        "5000:5000/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "DashMachine",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Dashmachine",
+          "container": "/dashmachine/dashmachine/user_data"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "FTP",
+        "Other",
+        "Tools"
+      ],
+      "description": "davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.\r\n\r\n/config : AppData Location\r\n/download : File Download Location",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/davos:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/davos.png",
+      "name": "davos",
+      "platform": "linux",
+      "ports": [
+        "8080/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Davos",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Davos",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Music"
+      ],
+      "description": "Deemix is a deezer downloader built from the ashes of Deezloader Remix.",
+      "image": "registry.gitlab.com/bockiii/deemix-docker",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/deemix.png",
+      "name": "deemix",
+      "note": "Deemix may take a few minutes to install. Be sure to check the logs for details. Refer to <a href='https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken'>this page</a> for userToken details.",
+      "platform": "linux",
+      "ports": [
+        "9666:9666/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "DeeMix",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/DeeMix",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders"
+      ],
+      "description": "Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more...",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "UMASK",
+          "name": "UMASK",
+          "set": "000"
+        }
+      ],
+      "image": "linuxserver/deluge:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/deluge-icon.png",
+      "namme": "deluge",
+      "platform": "linux",
+      "restart_policy": "unless-stopped",
+      "title": "Deluge",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Deluge",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "HomeAutomation",
+        "Management"
+      ],
+      "description": "Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/domoticz:latest",
+      "logo": "https://github.com/domoticz/domoticz/raw/master/www/images/logo.png",
+      "name": "domoticz",
+      "platform": "linux",
+      "ports": [
+        "1443:1443/tcp",
+        "6144:6144/tcp",
+        "8080:8080/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Domoticz",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Domoticz",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "DNS",
+        "Tools"
+      ],
+      "description": "Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.\r\n\r\nFirst, go to duckdns site, register your subdomain and retrieve your token\r\nThen run the docker create command above with your subdomain(s) and token\r\nIt will update your IP with the DuckDNS service every 5 minutes\r\n\r\n",
+      "env": [
+        {
+          "label": "SUBDOMAINS",
+          "name": "SUBDOMAINS",
+          "set": ""
+        },
+        {
+          "label": "TOKEN",
+          "name": "TOKEN",
+          "set": ""
+        },
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/duckdns:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/duckdns.png",
+      "name": "duckdns",
+      "platform": "linux",
+      "restart_policy": "unless-stopped",
+      "title": "Duck DNS",
+      "type": 1
+    },
+    {
+      "categories": [
+        "Backup",
+        "Cloud",
+        "Other",
+        "Productivity",
+        "Tools"
+      ],
+      "description": "Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/duplicati:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/duplicati-icon.png",
+      "name": "duplicati",
+      "platform": "linux",
+      "ports": [
+        "8200:8200/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Duplicati",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Duplicati",
+          "container": "/config"
+        },
+        {
+          "container": "/tmp"
+        },
+        {
+          "container": "/backups"
+        },
+        {
+          "container": "/source"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Video",
+        "Music",
+        "Photos"
+      ],
+      "description": "Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "TZ",
+          "name": "TZ"
+        }
+      ],
+      "image": "linuxserver/emby:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/emby.png",
+      "name": "emby",
+      "platform": "linux",
+      "ports": [
+        "8096:8096/tcp",
+        "8920:8920/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Emby",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Emby",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/TV",
+          "container": "/data/tvshows"
+        },
+        {
+          "bind": "/portainer/Movies",
+          "container": "/data/movies"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "Web File Browser which can be used as a middleware or standalone app.",
+      "image": "80x86/filebrowser:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/filebrowser.png",
+      "name": "filebrowser",
+      "note": "The default user and password is admin/admin.",
+      "platform": "linux",
+      "ports": [
+        "8082:8082/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "FileBrowser",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/FileBrowser",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config",
+          "container": "/myfiles"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other"
+      ],
+      "description": "A free, self-hostable rss aggregator…",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/freshrss:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/freshrss-icon.png",
+      "name": "freshrss",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "FreshRSS",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/freshrss",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Web",
+        "Books",
+        "Tools"
+      ],
+      "description": "A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/gazee:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/gazee-logo.png",
+      "name": "gazee",
+      "platform": "linux",
+      "restart_policy": "unless-stopped",
+      "title": "Gazee",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Gazee",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Comics",
+          "container": "/comics"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Gazee",
+          "container": "/mylar"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools",
+        "Finance"
+      ],
+      "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "Timezone",
+          "name": "TZ"
+        }
+      ],
+      "image": "linuxserver/grocy:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/grocy_logo.png",
+      "name": "grocy",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Grocy",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Grocy",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "A clientless remote desktop gateway.",
+      "image": "oznu/guacamole:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/guacamole.png",
+      "name": "guacamole",
+      "note": "The default login will be guacadmin/guacadmin. It is common practice to add a new admin user and remove the default user for Guacamole.",
+      "platform": "linux",
+      "ports": [
+        "8080:8080/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Guacamole",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Guacamole",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Video",
+        "Music",
+        "Other"
+      ],
+      "description": "HTPC Manaager, a front end for many htpc related applications. Hellowlol version.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/htpcmanager:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/htpcmanager-icon.png",
+      "name": "htpcmanager",
+      "platform": "linux",
+      "ports": [
+        "8085:8085/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "HTPC Manager",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/HTPCmanager",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders",
+        "Music"
+      ],
+      "description": "Lidarr is a music collection manager for Usenet and BitTorrent users.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/lidarr:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/lidarr.png",
+      "name": "lidarr",
+      "platform": "linux",
+      "ports": [
+        "8686:8686/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "lidarr",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Lidarr",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        },
+        {
+          "bind": "/portainer/Music",
+          "container": "/music"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
+      "image": "pihole/pihole:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/pihole.png",
+      "name": "pihole",
+      "note": "When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53.",
+      "platform": "linux",
+      "ports": [
+        "53:53/tcp",
+        "53:53/udp",
+        "67:67/udp",
+        "1010:80/tcp",
+        "4443:443/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Pi-Hole",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/PiHole",
+          "container": "/etc/pihole"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+          "container": "/etc/dnsmasq.d"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Photos"
+      ],
+      "description": "Piwigo is photo gallery software for the web, built by an active community of users and developers.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/piwigo:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/piwigo-icon.png",
+      "name": "piwigo",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Piwigo",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/PiWigo",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Video",
+        "Music",
+        "Photos"
+      ],
+      "description": "Your favorite movies, TV, music, web shows, podcasts, and more, all streamed to your favorite screens.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "VERSION",
+          "name": "VERSION",
+          "set": "latest"
+        }
+      ],
+      "image": "linuxserver/plex:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/plex-icon.png",
+      "name": "plex",
+      "network": "host",
+      "platform": "linux",
+      "restart_policy": "unless-stopped",
+      "title": "Plex",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Plex",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/TV",
+          "container": "/tv"
+        },
+        {
+          "bind": "/portainer/Movies",
+          "container": "/movies"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders",
+        "Other",
+        "Video",
+        "Tools"
+      ],
+      "description": "Simple automated way for users to request new content for Plex.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "URL_BASE",
+          "name": "URL_BASE",
+          "set": ""
+        }
+      ],
+      "image": "linuxserver/plexrequests:latest",
+      "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-icon.png",
+      "name": "plexrequests",
+      "platform": "linux",
+      "ports": [
+        "3000:3000/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Plex Requests",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/PlexRequests",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Cloud",
+        "Productivity",
+        "Tools",
+        "Other"
+      ],
+      "description": "ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself! Secure, private and easy. No more depending on external services or e-mail to send those files!\n  ",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/projectsend:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/projectsend-logo.png",
+      "name": "projectsend",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "ProjectSend",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/ProjectSend",
+          "container": "/data"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config/ProjectSend",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Email",
+        "Productivity",
+        "Tools",
+        "Other"
+      ],
+      "description": "This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work.",
+      "image": "shenxn/protonmail-bridge:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/protonmail-bridge.png",
+      "name": "protonmail-bridge",
+      "note": "Please refer to the documentation <a href='https://hub.docker.com/r/shenxn/protonmail-bridge'/>here</a> to set this up.",
+      "platform": "linux",
+      "ports": [
+        "143/tcp",
+        "25/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "ProtonMail Bridge",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/ProtonMail-Bridge",
+          "container": "/root"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "VPN",
+        "Tools",
+        "Other",
+        "Web"
+      ],
+      "description": "Pritunl container built on Alpine Linux. Supports IPv6 and running behind a reverse proxy. This container requires an external Mongo DB and should be run via Docker Compose or other orchestration.",
+      "env": [
+        {
+          "default": "false",
+          "label": "REVERSE_PROXY",
+          "name": "REVERSE_PROXY"
+        },
+        {
+          "label": "PRITUNL_OPTS",
+          "name": "PRITUNL_OPTS"
+        },
+        {
+          "default": "mongodb://mongo:27017/pritunl",
+          "label": "MONGODB_URI",
+          "name": "MONGODB_URI"
+        },
+        {
+          "default": "false",
+          "label": "WIREGUARD",
+          "name": "WIREGUARD"
+        }
+      ],
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/pritunl/Images/pritunl.png",
+      "name": "pritunl",
+      "note": "Documentation on this containier can be found here: <a href=https://hub.docker.com/r/goofball222/pritunl>https://hub.docker.com/r/goofball222/pritunl</a>",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/pritunl.yml",
+        "url": "https://github.com/SelfhostedPro/selfhosted_templates"
+      },
+      "title": "Pritunl",
+      "type": 3
+    },
+    {
+      "categories": [
+        "Cloud",
+        "Other"
+      ],
+      "description": "Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/pydio:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/pydio-icon.png",
+      "name": "pydio",
+      "platform": "linux",
+      "ports": [
+        "443/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Pydio",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Pydio",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Pydio",
+          "container": "/data"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders"
+      ],
+      "description": "The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/qbittorrent:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/qbittorrent-icon.png",
+      "name": "qbittorrent",
+      "platform": "linux",
+      "ports": [
+        "6881:6881/tcp",
+        "6881:6881/udp",
+        "8080:8080/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "qBittorrent",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/qBittorrent",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Messenger"
+      ],
+      "description": "Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/quassel-core:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/quassel-core-icon.png",
+      "name": "quassel-core",
+      "platform": "linux",
+      "ports": [
+        "4242:4242/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Quassel IRC",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Quassel-core",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders",
+        "Video"
+      ],
+      "description": "Radarr - A fork of Sonarr to work with movies à la Couchpotato.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/radarr:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/radarr.png",
+      "name": "radarr",
+      "platform": "linux",
+      "ports": [
+        "7878:7878/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Radarr",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Radarr",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        },
+        {
+          "bind": "/portainer/Movies",
+          "container": "/movies"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "A one-of-a-kind resume builder that's not out to get your data. Completely secure, customizable, portable, open-source and free forever.",
+      "image": "amruthpillai/reactive-resume:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/reactiveresume.png",
+      "name": "reactive-resume",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Reactive-Resume",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/ReactiveResume",
+          "container": "/usr/src/app"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Backup",
+        "Cloud",
+        "Other",
+        "Tools"
+      ],
+      "description": "Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/resilio-sync:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/resilio.png",
+      "name": "resilio-sync",
+      "platform": "linux",
+      "restart_policy": "unless-stopped",
+      "title": "Resilio Sync",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Resilio-Sync",
+          "container": "/config"
+        },
+        {
+          "container": "/sync"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders"
+      ],
+      "description": "Popular torrent client with a webui for ease of use.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/rutorrent:latest",
+      "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png",
+      "name": "rutorrent",
+      "platform": "linux",
+      "ports": [
+        "80/tcp",
+        "51413:51413/tcp",
+        "6881:6881/udp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "ruTorrent",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/ruTorrent",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
         "Tools"
       ],
       "description": "A Free and Open Source Speedtest for HTML5 and more.",
