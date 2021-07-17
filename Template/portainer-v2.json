@@ -20,6 +20,558 @@
 
     {
       "categories": [
+        "Downloaders"
+      ],
+      "description": "SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/sabnzbd:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sabnzbd-icon.png",
+      "name": "sabnzbd",
+      "platform": "linux",
+      "ports": [
+        "8080:8080/tcp",
+        "9090:9090/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "SABnzbd",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Sabnzbd",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        },
+        {
+          "bind": "/portainer/Downloads/incomplete",
+          "container": "/incomplete-downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application.",
+      "image": "radhifadlillah/shiori:latest",
+      "logo": "https://raw.githubusercontent.com/robocopAlpha/selfhosted_templates/master/Images/shiori-icon.png",
+      "name": "shiori",
+      "platform": "linux",
+      "ports": [
+        "8080/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Shiori",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Shiori",
+          "container": "/srv/shiori"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders",
+        "Video"
+      ],
+      "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/sickchill:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sickchill-icon.png",
+      "name": "sickchill",
+      "platform": "linux",
+      "ports": [
+        "8081:8081/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "SickChill",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/SickChill",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        },
+        {
+          "bind": "/portainer/TV",
+          "container": "/tv"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders",
+        "Video"
+      ],
+      "description": "SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/sickgear:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sickgear-icon.png",
+      "name": "sickgear",
+      "platform": "linux",
+      "ports": [
+        "8081:8081/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "SickGear",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/SickGear",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/TV",
+          "container": "/tv"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Management"
+      ],
+      "description": null,
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/smokeping:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/smokeping-icon.png",
+      "name": "smokeping",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "SmokePing",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Smokeping",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Smokeping",
+          "container": "/data"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders",
+        "Video"
+      ],
+      "description": "Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/sonarr:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sonarr-icon.png",
+      "name": "sonarr",
+      "platform": "linux",
+      "ports": [
+        "8989:8989/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Sonarr",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Sonarr",
+          "container": "/config"
+        },
+        {
+          "bind": "/dev/rtc",
+          "container": "/dev/rtc"
+        },
+        {
+          "bind": "/portainer/TV",
+          "container": "/tv"
+        },
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/downloads"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Backup",
+        "Cloud",
+        "Other",
+        "Tools"
+      ],
+      "description": null,
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/syncthing:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/syncthing-icon.png",
+      "name": "syncthing",
+      "platform": "linux",
+      "ports": [
+        "8384:8384/tcp",
+        "21027:21027/udp",
+        "22000:22000/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "SyncThing",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Syncthing",
+          "container": "/config"
+        },
+        {
+          "container": "/sync"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.[br][br]\r\n  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]\r\n  [b]8181[/b] The webui for Tautulli's webui [br]\r\n  [b]/config[/b] Storing Configuration and the Tautulli database[br]\r\n[b]/logs[/b] Map to you plex logs (required for IP logging)[br]\r\n\r\n",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/tautulli:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/tautulli-icon.png",
+      "name": "tautulli",
+      "platform": "linux",
+      "ports": [
+        "8181:8181/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Tautulli",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Logs",
+          "container": "/logs"
+        },
+        {
+          "bind": "/portainer/Files/AppData/Config/Tautulli",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Messenger"
+      ],
+      "description": "A self-hosted web IRC client",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/thelounge:latest",
+      "logo": "https://raw.githubusercontent.com/linuxserver/community-templates/master/lsiocommunity/img/shout-icon.png",
+      "name": "thelounge",
+      "platform": "linux",
+      "ports": [
+        "9000:9000/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "TheLounge",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/TheLounge",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "Tools"
+      ],
+      "description": "A unique, non-linear notebook wiki.",
+      "image": "mazzolino/tiddlywiki:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/tiddlywiki.png",
+      "name": "tiddlywiki",
+      "platform": "linux",
+      "ports": [
+        "8080:8080/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "TiddlyWiki",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/TiddlyWiki",
+          "container": "/var/lib/tiddlywiki"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Downloaders"
+      ],
+      "description": "Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/transmission:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/transmission-icon.png",
+      "name": "transmission",
+      "platform": "linux",
+      "ports": [
+        "9091:9091/tcp",
+        "51413:51413/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Transmission",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Transmission",
+          "container": "/config"
+        },
+        {
+          "bind": "/portainer/Files/Downloads",
+          "container": "/downloads"
+        },
+        {
+          "container": "/watch"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other",
+        "VPN",
+        "Tools"
+      ],
+      "description": "This container contains OpenVPN and Transmission with a configuration\nwhere Transmission is running only when OpenVPN has an active tunnel.\nIt bundles configuration files for many popular VPN providers to make the setup easier.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "default": "MULLVAD",
+          "description": "https://haugene.github.io/docker-transmission-openvpn/supported-providers/",
+          "label": "OPENVPN_PROVIDER",
+          "name": "OPENVPN_PROVIDER"
+        },
+        {
+          "default": "",
+          "label": "OPENVPN_USERNAME",
+          "name": "OPENVPN_USERNAME"
+        },
+        {
+          "default": "",
+          "label": "OPENVPN_PASSWORD",
+          "name": "OPENVPN_PASSWORD"
+        },
+        {
+          "default": "192.168.0.0/24",
+          "label": "LOCAL_NETWORK",
+          "name": "LOCAL_NETWORK"
+        }
+      ],
+      "image": "haugene/transmission-openvpn:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/transmission-icon.png",
+      "name": "transmission-openvpn",
+      "note": "List of supported providers available <a href='https://haugene.github.io/docker-transmission-openvpn/supported-providers'/>here</a>.",
+      "platform": "linux",
+      "ports": [
+        "9091:9091/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Transmission-OpenVPN",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Downloads",
+          "container": "/data"
+        },
+        {
+          "bind": "/etc/localtime",
+          "container": "/etc/localtime"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Other"
+      ],
+      "description": "Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "lunik1/tt-rss:latest",
+      "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/tt-rss-icon.png",
+      "name": "tt-rss",
+      "platform": "linux",
+      "ports": [
+        "80/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Tiny Tiny RSS",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/tt-rss",
+          "container": "/config"
+        }
+      ]
+    },
+    {
+      "categories": [
+        "Video",
+        "Other"
+      ],
+      "description": "Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT&gt;IP and HDHomeRun as input sources.\r\nTvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT&gt;IP streaming.\r\nMultiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML).",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "100",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+      "image": "linuxserver/tvheadend:latest",
+      "logo": "http://i.imgur.com/zGSUAT4.png",
+      "name": "tvheadend",
+      "platform": "linux",
+      "ports": [
+        "9981:9981/tcp",
+        "9982:9982/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Tvheadend",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/TVHeadend",
+          "container": "/config"
+        },
+        {
+          "container": "/recordings"
+        }
+      ]
+    },
+    {
+      "categories": [
         "Other",
         "Tools",
         "Photo"
