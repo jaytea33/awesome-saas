@@ -3,7 +3,8 @@
 
 
 <a href="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" target="_blank">
-  <img height="500px" width="auto" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" /><img src="https://camunda-community-hub.github.io/zeebe-portainer-templates/assets/demo.gif" />
+  <img height="auto" width="9%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" />
+  <img height="auto" width="89%" src="https://camunda-community-hub.github.io/zeebe-portainer-templates/assets/demo.gif" />
 </a>
 
 This is a template focused on helping people spin up selfhosted services using Portainer: [Latest Version](https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json)
