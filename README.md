@@ -7,6 +7,10 @@ This is a template focused on helping people spin up selfhosted services using P
 
 `https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json`
 
+<a href="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" target="_blank">
+  <img height="250px" width="auto" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" />
+</a>
+
 <hr />
 
 
