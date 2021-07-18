@@ -1,20 +1,14 @@
 # Top 100+ Instant Self-hosted SaaS Applications
 ### Over 100 instant 'One-Click-Deploy' SaaS Application templates, when you need to get up and running fast!
 
-<img src="https://camunda-community-hub.github.io/zeebe-portainer-templates/assets/demo.gif" />
+
+<a href="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" target="_blank">
+  <img height="500px" width="auto" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" /><img src="https://camunda-community-hub.github.io/zeebe-portainer-templates/assets/demo.gif" />
+</a>
 
 This is a template focused on helping people spin up selfhosted services using Portainer: [Latest Version](https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json)
 
 `https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json`
-
-
-<a href="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" target="_blank">
-  ### Screenshot
-</a>
-
-<a href="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" target="_blank">
-  <img height="500px" width="auto" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot.png?raw=true" />
-</a>
 
 <hr />
 
