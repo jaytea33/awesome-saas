@@ -6,8 +6,8 @@
   <img height="auto" width="100%" src="https://camunda-community-hub.github.io/zeebe-portainer-templates/assets/demo.gif" />
   <hr />
   <img height="auto" width="25%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-1.jpg?raw=true" />
-  <img height="auto" width="25%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-2.jpg?raw=true" />
-  <img height="auto" width="25%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-3.jpg?raw=true" />
+  <img height="auto" width="24%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-2.jpg?raw=true" />
+  <img height="auto" width="24%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-3.jpg?raw=true" />
   <img height="auto" width="24%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-4.jpg?raw=true" />
 </a>
 
