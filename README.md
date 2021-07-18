@@ -13,7 +13,7 @@
 
 This is a template focused on helping people spin up selfhosted services using Portainer: [Latest Version](https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Template/portainer-v2.json)
 
-`https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json`
+`https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Template/portainer-v2.json`
 
 <hr />
 
@@ -28,7 +28,7 @@ This is a template focused on helping people spin up selfhosted services using P
 ### Installing
 
 1. Login to the Web-UI 'localhost:9000'
-2. Navigate to Settings and enter the [URL](https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json) under 'App Templates'.
+2. Navigate to Settings and enter the [URL](https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Template/portainer-v2.json) under 'App Templates'.
 3. Navigate back to 'App Templates' select your desired template and install.
 
 ### Information
@@ -46,321 +46,321 @@ If you wish to contribute make a pull request, create an issue, or email me.
 
 ## App List
 
-<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/airsonic-logo.png" />
+<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/airsonic-logo.png" />
 # Airsonic container
 
-Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/authelia.png" />
+Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/authelia.png" />
 # Authelia container
 
-An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. Other, Tools, Authentication<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/bazarr.png" />
+An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. Other, Tools, Authentication<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/bazarr.png" />
 # Bazarr container
 
-Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. Video, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/beets-icon.png" />
+Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you. Video, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/beets-icon.png" />
 # Beets container
 
-The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/bitwarden.png" />
+The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/bitwarden.png" />
 # Bitwarden RS container
 
-This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients\*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/booksonic.png" />
+This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients\*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/booksonic.png" />
 # Booksonic container
 
-Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic Books, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/embystat.png" />
+Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic Books, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/embystat.png" />
 # EmbyStat container
 
-Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/headphones-icon.png" />
+Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/headphones-icon.png" />
 # Headphones container
 
-Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/heimdall-icon.png" />
+Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/heimdall-icon.png" />
 # Heimdall container
 
-Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way. Tools, Web, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/homer.png" />
+Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way. Tools, Web, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/homer.png" />
 # Homer container
 
-A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/huginn.png" />
+A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/huginn.png" />
 # Huginn container
 
-Create agents that monitor and act on your behalf. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/invoice_ninja.png" />
+Create agents that monitor and act on your behalf. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/invoice_ninja.png" />
 # Invoice Ninja stack
 
 Copy as Custom
 
-Invoices, Expenses and Tasks built with Laravel and Flutter. Cloud, Productivity, Tools, Other, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/jacket-icon.png" />
+Invoices, Expenses and Tasks built with Laravel and Flutter. Cloud, Productivity, Tools, Other, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/jacket-icon.png" />
 # Jackett container
 
-Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.\[ Downloaders, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/jellyfin.png" />
+Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.\[ Downloaders, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/jellyfin.png" />
 # Jellyfin container
 
-Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Video, Music, Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/kodi-icon.png" />
+Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Video, Music, Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/kodi-icon.png" />
 # Kodi Headless container
 
-Headless installation of Kodi™ (formerly known as XBMC™), to enable library updates. Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/lazylibrarian-icon.png" />
+Headless installation of Kodi™ (formerly known as XBMC™), to enable library updates. Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/lazylibrarian-icon.png" />
 # LazyLibrarian container
 
-LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/letsencrypt.png" />
+LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/letsencrypt.png" />
 # Let's Encrypt container
 
-This container sets up an Nginx webserver and reverse proxy with php support and a built-in letsencrypt client that automates free SSL server certificate generation and renewal processes. It also contains fail2ban for intrusion prevention. Before running this container, make sure that the url and subdomains are properly forwarded to this container's host. - Port 443 on the internet side of the router should be forwarded to this container's port 443. - If you need a dynamic dns provider, you can use the free provider duckdns.org where the url will be yoursubdomain.duckdns.org and the subdomains can be www,ftp,cloud - The container detects changes to url and subdomains, revokes existing certs and generates new ones during start. - It also detects changes to the DHLEVEL parameter and replaces the dhparams file. - If you'd like to password protect your sites, you can use htpasswd. Run the following command on your host to generate the htpasswd file docker exec -it letsencrypt htpasswd -c /config/nginx/.htpasswd &lt;username&gt; Tools, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/speedtest.png" />
+This container sets up an Nginx webserver and reverse proxy with php support and a built-in letsencrypt client that automates free SSL server certificate generation and renewal processes. It also contains fail2ban for intrusion prevention. Before running this container, make sure that the url and subdomains are properly forwarded to this container's host. - Port 443 on the internet side of the router should be forwarded to this container's port 443. - If you need a dynamic dns provider, you can use the free provider duckdns.org where the url will be yoursubdomain.duckdns.org and the subdomains can be www,ftp,cloud - The container detects changes to url and subdomains, revokes existing certs and generates new ones during start. - It also detects changes to the DHLEVEL parameter and replaces the dhparams file. - If you'd like to password protect your sites, you can use htpasswd. Run the following command on your host to generate the htpasswd file docker exec -it letsencrypt htpasswd -c /config/nginx/.htpasswd &lt;username&gt; Tools, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/speedtest.png" />
 # LibreSpeed container
 
-A Free and Open Source Speedtest for HTML5 and more. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/lychee-icon.png" />
+A Free and Open Source Speedtest for HTML5 and more. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/lychee-icon.png" />
 # Lychee container
 
-Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely. Cloud, Web, Management, Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/mariadb-icon.png" />
+Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely. Cloud, Web, Management, Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/mariadb-icon.png" />
 # MariaDB container
 
-An Enhanced drop in replacement for Mysql Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/mcmyadmin-icon.png" />
+An Enhanced drop in replacement for Mysql Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/mcmyadmin-icon.png" />
 # McMyAdmin 2 container
 
-McMyAdmin 2 is the leading web control panel and administration console for Minecraft servers. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/medusa-icon.png" />
+McMyAdmin 2 is the leading web control panel and administration console for Minecraft servers. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/medusa-icon.png" />
 # Medusa container
 
 Medusa, automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png" />
 # Minetest container
 
-Server version of minetest, a free, open source alternative to minecraft. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/minisatip-icon.png" />
+Server version of minetest, a free, open source alternative to minecraft. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/minisatip-icon.png" />
 # Minisatip container
 
-Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards. The application is designed to stream the requested data to multiple clients (even with one dvb card) at the same time while opening different pids. Video, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/mstream.png" />
+Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards. The application is designed to stream the requested data to multiple clients (even with one dvb card) at the same time while opening different pids. Video, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/mstream.png" />
 # Mstream container
 
-Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.. Other, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/Mumble-logo.png" />
+Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone.. Other, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/Mumble-logo.png" />
 # Murmur container
 
-Mumble is a voicechat program for gamers written on top of Qt and Opus. Murmur is the server backend for Mumble. Other, Voice, Chat<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/musicbrainz-icon.png" />
+Mumble is a voicechat program for gamers written on top of Qt and Opus. Murmur is the server backend for Mumble. Other, Voice, Chat<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/musicbrainz-icon.png" />
 # MusicBrainz container
 
-MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public. Music, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/muximux-icon.png" />
+MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public. Music, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/muximux-icon.png" />
 # Muximux container
 
-A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps. Web, Proxy, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/mylar-icon.png" />
+A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps. Web, Proxy, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/mylar-icon.png" />
 # Mylar container
 
-An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents. Downloaders, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/nextcloud-icon.png" />
+An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents. Downloaders, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/nextcloud-icon.png" />
 # Nextcloud stack
 
 Copy as Custom
 
-Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Cloud, Productivity, Tools, Other, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/nginx-icon.png" />
+Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices. Cloud, Productivity, Tools, Other, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/nginx-icon.png" />
 # Nginx container
 
-Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache. Web, Proxy<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/proxy_mgr.png" />
+Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache. Web, Proxy<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/proxy_mgr.png" />
 # Nginx Proxy Manager container
 
-Nginx Proxy Manager enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt. Proxy, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/nzbget-icon.png" />
+Nginx Proxy Manager enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt. Proxy, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/nzbget-icon.png" />
 # NZBGet container
 
-NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/hydra-icon.png" />
+NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/hydra-icon.png" />
 # NZBHydra 2 container
 
-NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers. Downloaders, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/ombi.png" />
+NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers. Downloaders, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/ombi.png" />
 # Ombi container
 
-Ombi allows you to host your own Plex Request and user management system. Downloaders, Other, Video, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/openvpn-as-icon.png" />
+Ombi allows you to host your own Plex Request and user management system. Downloaders, Other, Video, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/openvpn-as-icon.png" />
 # OpenVPN Access Server container
 
-OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/organizr-icon.png" />
+OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/organizr-icon.png" />
 # Organizr v2 container
 
 Organizr allows you to setup Tabs that will be loaded all in one webpage. You can then work on your server with ease. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="http://i.imgur.com/8LadrLg.png" />
 # OScam container
 
-OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/photoshow-icon.png" />
+OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/photoshow-icon.png" />
 # PhotoShow container
 
-A simple, easy way to turn a photo album into a webgallery Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/snibox.png" />
+A simple, easy way to turn a photo album into a webgallery Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/snibox.png" />
 # Snibox container
 
-Self-hosted snippet manager. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/bookstack2.png" />
+Self-hosted snippet manager. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/bookstack2.png" />
 # Bookstack stack
 
 Copy as Custom
 
-Bookstack is a free and open source Wiki designed for creating beautiful documentation. Feautring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Wiki<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/Chevereto.png" />
+Bookstack is a free and open source Wiki designed for creating beautiful documentation. Feautring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease. Wiki<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/Chevereto.png" />
 # Chevereto container
 
-Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version.. Other, Tools, Photo<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/chowdown.png" />
+Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version.. Other, Tools, Photo<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/chowdown.png" />
 # Chowdown container
 
-Save recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/calibre-web-icon.png" />
+Save recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/calibre-web-icon.png" />
 # Calibre Web container
 
-Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. \[br\]\[br\] \[b\]\[u\]\[span style='color: #E80000;'\]Configuration\[/span\]\[/u\]\[/b\]\[br\] \[b\]/config\[/b\] Where Calibre-web should store it's database\[br\] \[b\]/books\[/b\] Path to your calibre library metadata.db file\[br\] Cloud, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/cardigann.png" />
+Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. \[br\]\[br\] \[b\]\[u\]\[span style='color: #E80000;'\]Configuration\[/span\]\[/u\]\[/b\]\[br\] \[b\]/config\[/b\] Where Calibre-web should store it's database\[br\] \[b\]/books\[/b\] Path to your calibre library metadata.db file\[br\] Cloud, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/cardigann.png" />
 # Cardigann container
 
-Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/code-server.png" />
+Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/code-server.png" />
 # Code Server container
 
-Code-server is VS Code running on a remote server, accessible through the browser. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/codiad-icon.png" />
+Code-server is VS Code running on a remote server, accessible through the browser. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/codiad-icon.png" />
 # Codiad container
 
-Codiad is a web-based IDE framework with a small footprint and minimal requirements. Productivity<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/cops-icon.png" />
+Codiad is a web-based IDE framework with a small footprint and minimal requirements. Productivity<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/cops-icon.png" />
 # COPS container
 
-COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices. Cloud, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/couchpotato-icon.png" />
+COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices. Cloud, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/couchpotato-icon.png" />
 # CouchPotato container
 
 CouchPotato (CP) is an automatic NZB and torrent downloader. You can keep a "movies I want"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the torrent to a specified directory. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-icon.png" />
 # Daapd container
 
-DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/dashmachine_logo.png" />
+DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/dashmachine_logo.png" />
 # DashMachine container
 
-Another application bookmark dashboard, with fun features. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/davos.png" />
+Another application bookmark dashboard, with fun features. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/davos.png" />
 # Davos container
 
-davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow. /config : AppData Location /download : File Download Location FTP, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/deemix.png" />
+davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow. /config : AppData Location /download : File Download Location FTP, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/deemix.png" />
 # DeeMix container
 
-Deemix is a deezer downloader built from the ashes of Deezloader Remix. Other, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/deluge-icon.png" />
+Deemix is a deezer downloader built from the ashes of Deezloader Remix. Other, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/deluge-icon.png" />
 # Deluge container
 
 Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more... Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://github.com/domoticz/domoticz/raw/master/www/images/logo.png" />
 # Domoticz container
 
-Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device HomeAutomation, Management<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/duckdns.png" />
+Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device HomeAutomation, Management<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/duckdns.png" />
 # Duck DNS container
 
-Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence. First, go to duckdns site, register your subdomain and retrieve your token Then run the docker create command above with your subdomain(s) and token It will update your IP with the DuckDNS service every 5 minutes DNS, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/duplicati-icon.png" />
+Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence. First, go to duckdns site, register your subdomain and retrieve your token Then run the docker create command above with your subdomain(s) and token It will update your IP with the DuckDNS service every 5 minutes DNS, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/duplicati-icon.png" />
 # Duplicati container
 
-Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others. Backup, Cloud, Other, Productivity, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/emby.png" />
+Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others. Backup, Cloud, Other, Productivity, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/emby.png" />
 # Emby container
 
-Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server. Video, Music, Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/filebrowser.png" />
+Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server. Video, Music, Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/filebrowser.png" />
 # FileBrowser container
 
-Web File Browser which can be used as a middleware or standalone app. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/freshrss-icon.png" />
+Web File Browser which can be used as a middleware or standalone app. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/freshrss-icon.png" />
 # FreshRSS container
 
-A free, self-hostable rss aggregator… Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/gazee-logo.png" />
+A free, self-hostable rss aggregator… Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/gazee-logo.png" />
 # Gazee container
 
-A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser Web, Books, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/grocy_logo.png" />
+A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser Web, Books, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/grocy_logo.png" />
 # Grocy container
 
-Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity. Other, Tools, Finance<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/guacamole.png" />
+Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity. Other, Tools, Finance<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/guacamole.png" />
 # Guacamole container
 
-A clientless remote desktop gateway. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/htpcmanager-icon.png" />
+A clientless remote desktop gateway. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/htpcmanager-icon.png" />
 # HTPC Manager container
 
-HTPC Manaager, a front end for many htpc related applications. Hellowlol version. Video, Music, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/lidarr.png" />
+HTPC Manaager, a front end for many htpc related applications. Hellowlol version. Video, Music, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/lidarr.png" />
 # lidarr container
 
-Lidarr is a music collection manager for Usenet and BitTorrent users. Downloaders, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/pihole.png" />
+Lidarr is a music collection manager for Usenet and BitTorrent users. Downloaders, Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/pihole.png" />
 # Pi-Hole container
 
-A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/piwigo-icon.png" />
+A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/piwigo-icon.png" />
 # Piwigo container
 
-Piwigo is photo gallery software for the web, built by an active community of users and developers. Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/plex-icon.png" />
+Piwigo is photo gallery software for the web, built by an active community of users and developers. Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/plex-icon.png" />
 # Plex container
 
 Your favorite movies, TV, music, web shows, podcasts, and more, all streamed to your favorite screens. Video, Music, Photos<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-icon.png" />
 # Plex Requests container
 
-Simple automated way for users to request new content for Plex. Downloaders, Other, Video, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/projectsend-logo.png" />
+Simple automated way for users to request new content for Plex. Downloaders, Other, Video, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/projectsend-logo.png" />
 # ProjectSend container
 
-ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself! Secure, private and easy. No more depending on external services or e-mail to send those files! Cloud, Productivity, Tools, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/protonmail-bridge.png" />
+ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself! Secure, private and easy. No more depending on external services or e-mail to send those files! Cloud, Productivity, Tools, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/protonmail-bridge.png" />
 # ProtonMail Bridge container
 
-This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work. Email, Productivity, Tools, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/pritunl/Images/pritunl.png" />
+This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work. Email, Productivity, Tools, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/pritunl/Images/pritunl.png" />
 # Pritunl stack
 
 Copy as Custom
 
-Pritunl container built on Alpine Linux. Supports IPv6 and running behind a reverse proxy. This container requires an external Mongo DB and should be run via Docker Compose or other orchestration. VPN, Tools, Other, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/pydio-icon.png" />
+Pritunl container built on Alpine Linux. Supports IPv6 and running behind a reverse proxy. This container requires an external Mongo DB and should be run via Docker Compose or other orchestration. VPN, Tools, Other, Web<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/pydio-icon.png" />
 # Pydio container
 
-Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more. Cloud, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/qbittorrent-icon.png" />
+Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more. Cloud, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/qbittorrent-icon.png" />
 # qBittorrent container
 
-The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/quassel-core-icon.png" />
+The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/quassel-core-icon.png" />
 # Quassel IRC container
 
-Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included. Messenger<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/radarr.png" />
+Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included. Messenger<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/radarr.png" />
 # Radarr container
 
-Radarr - A fork of Sonarr to work with movies à la Couchpotato. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/reactiveresume.png" />
+Radarr - A fork of Sonarr to work with movies à la Couchpotato. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/reactiveresume.png" />
 # Reactive-Resume container
 
-A one-of-a-kind resume builder that's not out to get your data. Completely secure, customizable, portable, open-source and free forever. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/resilio.png" />
+A one-of-a-kind resume builder that's not out to get your data. Completely secure, customizable, portable, open-source and free forever. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/resilio.png" />
 # Resilio Sync container
 
 Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both. Backup, Cloud, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png" />
 # ruTorrent container
 
-Popular torrent client with a webui for ease of use. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sabnzbd-icon.png" />
+Popular torrent client with a webui for ease of use. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/sabnzbd-icon.png" />
 # SABnzbd container
 
 SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/robocopAlpha/selfhosted_templates/master/Images/shiori-icon.png" />
 # Shiori container
 
-Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sickchill-icon.png" />
+Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/sickchill-icon.png" />
 # SickChill container
 
-Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sickgear-icon.png" />
+Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/sickgear-icon.png" />
 # SickGear container
 
-SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/smokeping-icon.png" />
+SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/smokeping-icon.png" />
 # SmokePing container
 
-Management<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/sonarr-icon.png" />
+Management<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/sonarr-icon.png" />
 # Sonarr container
 
-Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/syncthing-icon.png" />
+Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available. Downloaders, Video<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/syncthing-icon.png" />
 # SyncThing container
 
-Backup, Cloud, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/tautulli-icon.png" />
+Backup, Cloud, Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/tautulli-icon.png" />
 # Tautulli container
 
 Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.\[br\]\[br\] \[b\]\[u\]\[span style='color: #E80000;'\]Configuration\[/span\]\[/u\]\[/b\]\[br\] \[b\]8181\[/b\] The webui for Tautulli's webui \[br\] \[b\]/config\[/b\] Storing Configuration and the Tautulli database\[br\] \[b\]/logs\[/b\] Map to you plex logs (required for IP logging)\[br\] Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/linuxserver/community-templates/master/lsiocommunity/img/shout-icon.png" />
 # TheLounge container
 
-A self-hosted web IRC client Messenger<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/tiddlywiki.png" />
+A self-hosted web IRC client Messenger<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/tiddlywiki.png" />
 # TiddlyWiki container
 
-A unique, non-linear notebook wiki. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/transmission-icon.png" />
+A unique, non-linear notebook wiki. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/transmission-icon.png" />
 # Transmission container
 
-Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/transmission-icon.png" />
+Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/transmission-icon.png" />
 # Transmission-OpenVPN container
 
-This container contains OpenVPN and Transmission with a configuration where Transmission is running only when OpenVPN has an active tunnel. It bundles configuration files for many popular VPN providers to make the setup easier. Other, VPN, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/tt-rss-icon.png" />
+This container contains OpenVPN and Transmission with a configuration where Transmission is running only when OpenVPN has an active tunnel. It bundles configuration files for many popular VPN providers to make the setup easier. Other, VPN, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/tt-rss-icon.png" />
 # Tiny Tiny RSS container
 
 Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible. Other<br /><hr /><br /><img width="auto" height="50px" src="http://i.imgur.com/zGSUAT4.png" />
 # Tvheadend container
 
-Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT&gt;IP and HDHomeRun as input sources. Tvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT&gt;IP streaming. Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML). Video, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/ubooquity-icon.png" />
+Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT&gt;IP and HDHomeRun as input sources. Tvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT&gt;IP streaming. Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV DVB extensions, XMLTV, PyXML). Video, Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/ubooquity-icon.png" />
 # Ubooquity container
 
-Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer. Cloud, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/unifi-icon.png" />
+Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer. Cloud, Books<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/unifi-icon.png" />
 # UniFi Controller container
 
-Management, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/watchtower.png" />
+Management, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/watchtower.png" />
 # Watchtower container
 
-With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially. Other, Tools, Maintenance<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/webgrabplus.png" />
+With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially. Other, Tools, Maintenance<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/webgrabplus.png" />
 # WebGrab+Plus container
 
-WebGrab+Plus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.\[br\] Optional postprocessors to add IMDb data or to customize your xmltv listing.\[br\] http://www.webgrabplus.com/\[br\] \[b\]\[span style='color: #E80000;'\]Directions:\[/span\]\[/b\]\[br\] \[b\]/config\[/b\] : This is where WebGrab+Plus will store it's configuration.\[br\]\[br\] \[b\]/data\[/b\] : This is where tv\_grab\_wg script in the Tvheadend container looks for the guide.xml file.\[br\]\[br\] Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/whoogle.png" />
+WebGrab+Plus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.\[br\] Optional postprocessors to add IMDb data or to customize your xmltv listing.\[br\] http://www.webgrabplus.com/\[br\] \[b\]\[span style='color: #E80000;'\]Directions:\[/span\]\[/b\]\[br\] \[b\]/config\[/b\] : This is where WebGrab+Plus will store it's configuration.\[br\]\[br\] \[b\]/data\[/b\] : This is where tv\_grab\_wg script in the Tvheadend container looks for the guide.xml file.\[br\]\[br\] Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/whoogle.png" />
 # Whoogle container
 
-Self-hosted, ad-free, privacy-respecting Google metasearch engine. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/wikijs.png" />
+Self-hosted, ad-free, privacy-respecting Google metasearch engine. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/wikijs.png" />
 # Wikijs container
 
-Wikijs A modern, lightweight and powerful wiki app built on NodeJS. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/ytdlm.png" />
+Wikijs A modern, lightweight and powerful wiki app built on NodeJS. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/ytdlm.png" />
 # YouTubeDL-Material container
 
-YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend. Other, Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/UniFiVideo-logo.png" />
+YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend. Other, Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/UniFiVideo-logo.png" />
 # UniFi Video container
 
 UniFi Video is a powerful and flexible, integrated IP video management surveillance system designed to work with Ubiquiti’s UniFi Video Camera product line. UniFi Video has an intuitive, configurable, and feature‑packed user interface with advanced features such as motion detection, auto‑discovery, user‑level security, storage management, reporting, and mobile device support. CCTV<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/Yacht/master/readme_media/Yacht_logo_1_dark.png" />
 # Yacht container
 
-A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/znc-icon.png" />
+A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/znc-icon.png" />
 # ZNC container
 
 ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC. Messenger
@@ -497,7 +497,7 @@ Wordpress setup with a MySQL database CMS<br /><hr /><br /><img width="auto" hei
 AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your whole network. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/airsonic-logo.png" />
 # Airsonic container
 
-Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/authelia.png" />
+Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/authelia.png" />
 # Authelia container
 
 An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. Other, Tools, Authentication<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/embystat.png" />
@@ -800,7 +800,7 @@ Lidarr is a music collection manager for Usenet and BitTorrent users. Downloader
 The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library. Downloaders<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/Yacht/master/readme_media/Yacht_logo_1_dark.png" />
 # Yacht container
 
-A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/dradis-logo.png" />
+A web interface for managing docker containers with an emphasis on templating to provide 1 click deployments. Think of it like a decentralized app store for servers that anyone can make packages for. Other, Tools<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/dradis-logo.png" />
 # Dradis container
 
 Dradis Framework: Collaboration and reporting for IT Security teams http://dradisframework.org Security<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/adguard.png" />
@@ -809,7 +809,7 @@ Dradis Framework: Collaboration and reporting for IT Security teams http://dradi
 AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your whole network. Other<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/airsonic-logo.png" />
 # Airsonic container
 
-Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/authelia.png" />
+Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room. Music<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/donpablonow/selfhosted-saas/master/Images/authelia.png" />
 # Authelia container
 
 An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. Other, Tools, Authentication<br /><hr /><br /><img width="auto" height="50px" src="https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/embystat.png" />
