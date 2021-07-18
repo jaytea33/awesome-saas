@@ -8,7 +8,7 @@
   <img height="auto" width="25%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-1.jpg?raw=true" />
   <img height="auto" width="25%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-2.jpg?raw=true" />
   <img height="auto" width="25%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-3.jpg?raw=true" />
-  <img height="auto" width="25%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-4.jpg?raw=true" />
+  <img height="auto" width="24%" src="https://github.com/donPabloNow/Top-100-Instant-Self-hosted-SaaS/blob/master/screenshot-4.jpg?raw=true" />
 </a>
 
 This is a template focused on helping people spin up selfhosted services using Portainer: [Latest Version](https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Template/portainer-v2.json)
