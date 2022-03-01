@@ -1,12 +1,10 @@
-<img align="center" src="https://user-images.githubusercontent.com/6468571/156246747-ccbc7e2e-7216-4962-a892-334fb823618c.png" />
-
-<img align="center" src="https://raw.githubusercontent.com/donPabloNow/awesome-saas/master/Images/unicorn_face_1024.gif"/>
-
-# 🦄 Awesome SAAS (Awesomsaas!)
-### A carefully curated collection of over 300 tested instant (one-click) self-hosted applications
-Simply add the "template.json" repository to your preferred Container Orchestrator, such as Portainer. Bob's your uncle once you've successfully imported! Hundreds of fantastic programs are now available with a single mouse click.
-
-
+<p align="center">
+<img align="center" width="50%" src="https://raw.githubusercontent.com/donPabloNow/awesome-saas/master/Images/unicorn_face_1024.gif"/>
+<img align="center" width="75%"  src="https://user-images.githubusercontent.com/6468571/156246747-ccbc7e2e-7216-4962-a892-334fb823618c.png" />
+</p>
+<h1>🦄 Awesome SAAS (Awesomsaas!)</h1>
+<h2>A carefully curated collection of over 300 tested instant (one-click) self-hosted applications</h2>
+<h3>Simply add the "template.json" repository to your preferred Container Orchestrator, such as Portainer. Bob's your uncle once you've successfully imported! Hundreds of fantastic programs are now available with a single mouse click.</h3>
 <a href="https://github.com/donpablonow/awesome-saas/blob/master/screenshot.png?raw=true" target="_blank">
   <img height="auto" width="100%" src="https://camunda-community-hub.github.io/zeebe-portainer-templates/assets/demo.gif" />
   <hr />
